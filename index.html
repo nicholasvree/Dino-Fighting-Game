@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Close Up Guess Game</title>
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" >
+	<!-- Added link to the jQuery Library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Javascript File -->
+	<script src="assets/java/java.js"></script>
+
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h2><span id="instructions">Choose your Fighter</span></h2>
+		</div>
+		<div class="row" id="unused-char-row">
+			<div class="col-md-2 panel panel-default unused-char" id="trexChar" hp=500 ap=50 cap=40 dinoname="Tyranosaurus Rex">
+				<div class="panel-heading">
+					<h3 class ="panel-title text-center">Tyranosaurus Rex</h3>
+				</div>
+				<div class="panel-body">
+					<img src="assets/images/trex.gif" class = "center-block dinoimage inactive-char" id="trexChar-pic"/>
+					<p class="text-center"><span id="trexChar-hitpoints">500</span></p>
+				</div>
+			</div>
+			<div class="panel col-md-2 panel-default unused-char" id="triChar" hp=810 ap=45 cap=10 dinoname="Triceratops">
+				<div class="panel-heading">
+					<h3 class ="panel-title text-center">Triceratops</h3>
+				</div>
+				<div class="panel-body">
+					<img src="assets/images/tri.gif" class = "center-block dinoimage 	inactive-char" id="triChar-pic"/>
+					<p class ="text-center"><span id="triChar-hitpoints">810</span></p>
+				</div>
+			</div>
+			<div class="panel col-md-2 panel-default unused-char" id="velChar" hp=480 ap=65 cap=50 dinoname="Velicoraptor">
+				<div class="panel-heading">
+					<h3 class ="panel-title text-center">Velicoraptor</h3>
+				</div>
+				<div class="panel-body">
+					<img src="assets/images/vel.gif" class = "center-block dinoimage inactive-char" id="velChar-pic"/>
+					<p class="text-center"><span id="velChar-hitpoints">480</span></p>
+				</div>
+			</div>
+			<div class="panel col-md-2 panel-default unused-char" id="pteChar" hp=350 ap=50 cap=100 dinoname="Pterosaur">
+				<div class="panel-heading">
+					<h3 class ="panel-title text-center">Pterosaur</h3>
+				</div>
+				<div class="panel-body">
+					<img src="assets/images/pte.gif" class = "center-block dinoimage inactive-char" id="pteChar-pic"/>
+					<p class="text-center"><span id="pteChar-hitpoints">350</span></p>
+				</div>
+			</div>
+		</div>
+
+
+			<div class="row text-center" id="fighting-char">
+				<div class = "col-md-4">
+					<h4><span class = "center-text" id="your-char-heading"></span></h4>
+					<div id="your-char"></div>
+				</div>
+
+				<div class = "col-md-2">
+					<h4><span class = "center-text" id="vers-area-heading"></span></h4>
+					<button id="attack-btn">ATTACK!</button>
+					<button id="play-again-btn">Play Again</button>
+
+				</div>
+
+				<div class = "col-md-4">
+					<h4><span class = "center-text" id="your-opp-heading"></span></h4>
+					<div id="your-opp"></div>
+
+				</div>
+
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+</body>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,18 @@
+.inactive-char{
+	max-width:80px;
+	height: 60px;
+}
+
+.active-char{
+	width:150px;
+	height:112px;
+}
+
+p{
+	font-size: 15px;
+	margin-bottom: 0px
+}
+
+.panel{
+	padding-bottom: 0px;
+}
